@@ -1,0 +1,18 @@
+* {box-sizing: border-box;}
+:root{
+    --main: rgb(255, 0, 0);
+    --secondary: rgb(68,68,68);
+    --bg: rgb(255, 255, 255);
+    --txt: rgb(0,0,0);  
+}
+@font-face {
+    font-family: 'Oswald';src: url('fonts/Oswald-VariableFont_wght.ttf') format('truetype');}
+body{margin:0;padding:0;font-family: 'Oswald', sans-serif;}
+h1{display:flex;justify-content: center;}
+.bar{background-color: var(--main);height: 50px;z-index: 0; margin: 0 auto;}
+.infobox{display:flex;background-color: blue;flex-direction:row;border-style: groove;border-width: 3px;border-radius: 5px;margin:10px;padding:10px;}
+.infobox2{display:flex;background-color: green;flex-direction:row-reverse;border-style: groove;border-width: 3px;border-radius: 5px;margin:10px;padding: 10px;}
+.info{display: flex;flex-direction: column;width:50rem;max-width:900px;margin: 0 auto;align-items: center;justify-content: center;}
+.photo{width: 150px;height: 150px;margin: 10px;}
+.footer{display:flex;align-items:flex-end;height:80px;background-color: var(--secondary);}
+#logo{z-index: 2;width: 15%;height: 100%;}
