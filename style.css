@@ -9,7 +9,6 @@
 @font-face {
     font-family: 'Oswald';src: url('fonts/Oswald-VariableFont_wght.ttf') format('truetype');}
 .txt{font-size: 1.5em;}
-h1{display:flex;justify-content: center;}
 h2{text-align: center;}
 
 
@@ -21,7 +20,7 @@ body{margin:0;padding:0;font-family: 'Oswald', sans-serif;}
 .photo{width: 150px;height: 150px;margin: 10px; border-radius:10px;}
 .footer{display:flex;align-items:flex-end;height:80px;background-color: var(--secondary);}
 #logo{z-index: 2;width: 15%;height: 100%;}
-.location{width: 75rem;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap}
+.location{width: 75rem;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap; margin-top: 30px; margin-bottom: 30px;}
 .VDF{display: flex;flex-direction: column;align-items: center;background-color: var(--main2);border-style: groove;border-width: 3px;border-radius: 10px; padding: 10px;}
 .RMB{display: flex;flex-direction: column;align-items: center;background-color: var(--main2);border-style: groove;border-width: 3px;border-radius: 10px; padding: 10px;}
 .outside{width: 20em;height: auto; background-color: var(--main2);}
