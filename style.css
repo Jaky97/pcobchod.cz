@@ -13,16 +13,16 @@ h2{text-align: center;}
 
 
 body{margin:0;padding:0;font-family: 'Oswald', sans-serif;background-color: var(--bg);}
-.bar{background-color: var(--main2);height: 50px;z-index: 0; margin: 0 auto;}
+.bar{background-color: var(--main2);height: 70px;z-index: 0; margin: 0 auto;border-bottom: 3px solid;border-color: var(--main);}
 .infobox{display:flex;background-color: var(--main2);flex-direction:row;border-style: groove;border-width: 3px;border-radius: 10px;margin:10px;padding:10px;}
 .infobox2{display:flex;background-color: var(--main2);flex-direction:row-reverse;border-style: groove;border-width: 3px;border-radius: 10px;margin:10px;padding: 10px;}
-.info{display: flex;flex-direction: column;width:50rem;max-width:900px;margin: 0 auto;align-items: center;justify-content: center;}
+.info{display: flex;flex-direction: column;width:50rem;max-width:900px;margin: 0 auto;align-items: center;justify-content: center;border-bottom: 3px solid;border-color: var(--main)}
 .photo{width: 150px;height: 150px;margin: 10px; border-radius:10px;}
 .footer{display:flex;align-items:flex-end;height:80px;background-color: var(--secondary);}
-#logo{z-index: 2;width: 15%;height: 100%;}
-.location{width: 75rem;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap; margin-top: 30px; margin-bottom: 30px;}
+#logo{z-index: 2;width: auto;height: 100%;}
+.location{width: 75rem;max-width: 100%;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;align-items: center;margin: 30px auto;}
 .VDF{display: flex;flex-direction: column;align-items: center;background-color: var(--main2);border-style: groove;border-width: 3px;border-radius: 10px; padding: 10px;}
-.RMB{display: flex;flex-direction: column;align-items: center;background-color: var(--main2);border-style: groove;border-width: 3px;border-radius: 10px; padding: 10px;}
+.RMB{display: flex;flex-direction: column;align-items: center;background-color:var(--main2);border-style: groove;border-width:3px;border-radius:10px; padding:10px;}
 .outside{width: 20em;height: auto; background-color: var(--main2);}
 
 .info .infobox:hover, .info .infobox2:hover,.VDF:hover,.RMB:hover {
