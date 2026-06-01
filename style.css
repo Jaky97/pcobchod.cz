@@ -1,18 +1,27 @@
 * {box-sizing: border-box;}
 :root{
-    --main: rgb(255, 0, 0);
+    --main: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(235, 85, 85));
+    --main2: rgb(245, 245, 245);
     --secondary: rgb(68,68,68);
     --bg: rgb(255, 255, 255);
     --txt: rgb(0,0,0);  
 }
 @font-face {
     font-family: 'Oswald';src: url('fonts/Oswald-VariableFont_wght.ttf') format('truetype');}
-body{margin:0;padding:0;font-family: 'Oswald', sans-serif;}
+.txt{font-size: 1.5em;}
 h1{display:flex;justify-content: center;}
-.bar{background-color: var(--main);height: 50px;z-index: 0; margin: 0 auto;}
-.infobox{display:flex;background-color: blue;flex-direction:row;border-style: groove;border-width: 3px;border-radius: 5px;margin:10px;padding:10px;}
-.infobox2{display:flex;background-color: green;flex-direction:row-reverse;border-style: groove;border-width: 3px;border-radius: 5px;margin:10px;padding: 10px;}
+h2{text-align: center;}
+
+
+body{margin:0;padding:0;font-family: 'Oswald', sans-serif;}
+.bar{background-color: var(--main2);height: 50px;z-index: 0; margin: 0 auto;}
+.infobox{display:flex;background-color: var(--main2);flex-direction:row;border-style: groove;border-width: 3px;border-radius: 10px;margin:10px;padding:10px;}
+.infobox2{display:flex;background-color: var(--main2);flex-direction:row-reverse;border-style: groove;border-width: 3px;border-radius: 10px;margin:10px;padding: 10px;}
 .info{display: flex;flex-direction: column;width:50rem;max-width:900px;margin: 0 auto;align-items: center;justify-content: center;}
-.photo{width: 150px;height: 150px;margin: 10px;}
+.photo{width: 150px;height: 150px;margin: 10px; border-radius:10px;}
 .footer{display:flex;align-items:flex-end;height:80px;background-color: var(--secondary);}
 #logo{z-index: 2;width: 15%;height: 100%;}
+.location{width: 75rem;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap}
+.VDF{display: flex;flex-direction: column;align-items: center;background-color: var(--main2);border-style: groove;border-width: 3px;border-radius: 10px; padding: 10px;}
+.RMB{display: flex;flex-direction: column;align-items: center;background-color: var(--main2);border-style: groove;border-width: 3px;border-radius: 10px; padding: 10px;}
+.outside{width: 20em;height: auto; background-color: var(--main2);}
