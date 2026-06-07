@@ -1,25 +1,22 @@
-# Ročníková práce: Webová prezentace PcObchod
+Ročníková práce: Webová prezentace PcObchod
+Komplexní, plně optimalizovaná webová prezentace pro lokální IT servis a prodejnu PcObchod (pobočky Varnsdorf a Rumburk). Projekt je zaměřen na prezentaci poskytovaných služeb (Apple servis, Android servis, IT servis, EET pokladny) a splňuje přísná kritéria moderního, přístupného a rychlého webu bez použití jakýchkoliv cizích knihoven či frameworků.
 
-Komplexní, plně optimalizovaná webová prezentace pro lokální IT servis a prodejnu **PcObchod** (pobočky Varnsdorf a Rumburk). Projekt je zaměřen na prezentaci poskytovaných služeb (Apple servis, Android servis, IT servis, EET pokladny) a splňuje přísná kritéria moderního, přístupného a rychlého webu bez použití jakýchkoliv cizích knihoven či frameworků.
+Autor: Jakub Petřík
+Předmět: Webové technologie (2. ročník)
 
-* **Autor:** [Jakub Petřík]
-* **Předmět:** Webové technologie (2. ročník)
-* **Živá ukázka (GitHub Pages):** [https://jaky97.github.io/pcobchod.cz/]
+Živá ukázka (GitHub Pages): https://jaky97.github.io/pcobchod.cz/
 
----
+1. Technické specifikace
+Základní technologie: Čisté HTML5, CSS3 a Vanilla JavaScript (ES6+).
 
-## 1. Technické specifikace
+Nástroje a IDE: Visual Studio Code.
 
-* **Základní technologie:** Čisté HTML5, CSS3 a Vanilla JavaScript (ES6+).
-* **Nástroje a IDE:** Visual Studio Code.
-* **Omezení:** V projektu nebyly použity žádné JavaScriptové frameworky (React, Vue) ani CSS frameworky (Bootstrap, Tailwind). Veškeré rozvržení a interaktivita jsou napsány "pod kapotou".
-* **AI Asistence:** Projekt vznikal za podpory AI modelů. **Claude** byl využit jako primární nástroj pro technické úpravy, generování pokročilejších JS struktur a optimalizaci kódu. **Gemini** sloužil pro veškerou konzultaci, revizi architektury a závěrečnou kontrolu standardů.
+Omezení: V projektu nebyly použity žádné JavaScriptové frameworky (React, Vue) ani CSS frameworky (Bootstrap, Tailwind). Veškeré rozvržení a interaktivita jsou napsány "pod kapotou".
 
----
+AI Asistence: Projekt vznikal za podpory AI modelů. Claude byl využit jako primární nástroj pro technické úpravy, generování pokročilejších JS struktur a optimalizaci kódu. Gemini sloužil pro veškerou konzultaci, revizi architektury a závěrečnou kontrolu standardů.
 
-## 2. Adresářová struktura
-
-```text
+2. Adresářová struktura
+Plaintext
 ├── images/                   # Složka s optimalizovanými grafickými podklady
 │   ├── logo_new.webp
 │   ├── service-apple.webp
@@ -35,7 +32,6 @@ Komplexní, plně optimalizovaná webová prezentace pro lokální IT servis a p
 ├── style.css                 # Kompletní stylování s Media Queries (Mobile First)
 ├── script.js                 # Logika pro asynchronní načítání a scroll animace
 └── README.md                 # Tato technická dokumentace
-
 3. Technický rozbor & Oblasti optimalizace
 Výkon (Performance)
 Teoretický popis: Výkon webu je maximalizován kompletním převedením všech obrázků do moderního úsporného formátu .webp. Dále byl implementován pokročilý asynchronní Lazy Loading nejen pro obrázky, ale také pro náročné mapové iframe prvky Google Map. Místo klasického atributu src se využívá data-src, který JS načte až ve chvíli, kdy uživatel na dané místo reálně doscrolluje. Tím se drasticky snížil počet úvodních HTTP požadavků.
@@ -88,9 +84,8 @@ Teoretický popis: Do hlavičky webu byly integrované Open Graph meta tagy pro 
 Kódový výstřižek (Open Graph integrace):
 
 HTML
-<!-- Open Graph (Facebook, LinkedIn) -->
 <meta property="og:title" content="PcObchod - servis a opravy">
-<meta property="og:description" content="Specializujeme se na opravy telefonů, počítačů and EET pokladny.">
+<meta property="og:description" content="Specializujeme se na opravy telefonů, počítačů a EET pokladny.">
 <meta property="og:image" content="images/logo_new.webp">
 <meta property="og:url" content="[https://jaky97.github.io/pcobchod.cz](https://jaky97.github.io/pcobchod.cz)">
 <meta property="og:type" content="website">
@@ -108,7 +103,7 @@ CSS
     .txt { font-size: 1.2em; }
 }
 AI Integrace & Dynamické prvky
-Teoretický popis: Za pomoci AI byl navržen a implementován skript využívající IntersectionObserver pro plynulé animace. Prvky služeb a poboček jsou při načtení stránky skryté (mají nulové opacity a jsou posunuté dolů). Jakmile uživatel na stránce dolétne k danému prvku, JavaScript mu přidá třídu .show, čímž se spustí plynulá CSS transformace.
+Teoretický popis: Za pomoci AI byl navržen a implementován skript využívající IntersectionObserver pro plynulé animace. Prvky služeb a poboček jsou při načtení stránky skryté (mají nulové opacity a jsou posunuté dolů). Jakmile uživatel na stránce dojede k danému prvku, JavaScript mu přidá třídu .show, čímž se spustí plynulá CSS transformace.
 
 Kódový výstřižek (Scroll animace vyvinutá s AI):
 
