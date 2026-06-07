@@ -3,75 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- SEO základy -->
     <meta name="description" content="PcObchod - servis Apple, Android, IT a EET pokladny ve Varnsdorfu a Rumburku.">
     <meta name="keywords" content="servis telefonu, apple servis, android servis, IT servis, EET pokladny, Varnsdorf, Rumburk">
     <meta name="author" content="PcObchod">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://jaky97.github.io/pcobchod.cz/">
-
-    <!-- Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="PcObchod - servis a opravy">
     <meta property="og:description" content="Specializujeme se na opravy telefonů, počítačů a EET pokladny.">
     <meta property="og:image" content="images/logo_new.webp">
-    <meta property="og:url" content="https://jaky97.github.io/pcobchod.cz">
+    <meta property="og:url" content="https://jaky97.github.io/pcobchod.cz/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="cs_CZ">
-
-    <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PcObchod - servis a opravy">
     <meta name="twitter:description" content="Specializujeme se na opravy telefonů, počítačů a EET pokladny.">
     <meta name="twitter:image" content="images/logo_new.webp">
-
     <title>PcObchod - Servis Telefonů, Počítačů a IT techniky</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bar">
-        <img id="logo" data-src="images/logo_new.webp" alt="logo obchodu">
-    </div>
-    <div id="matit">
-    </div>
-    <div class="info">
-        <div class="infobox">
-            <img class="photo" data-src="images/service-apple.webp" alt="apple telefony">
-            <h2 class="title">Apple servis</h2><br>
-            <p class="txt">iPhone, iPad i MacBook. Specializujeme se na opravy bez ztráty dat a s originálními díly.</p>
-        </div>
-        <div class="infobox2">
-            <img class="photo" data-src="images/service-android.webp" alt="android telefony">
-            <h2 class="title">Android servis</h2><br>
-            <p class="txt">Samsung, Xiaomi, Huawei, Honor, OnePlus a další. Software i hardware opravy.</p>
-        </div>
-        <div class="infobox">
-            <img class="photo" data-src="images/servis_new.webp" alt="IT servis">
-            <h2 class="title">IT servis</h2><br>
-            <p class="txt">Počítače, notebooky a další výpočetní technika. Čištění, výměna komponent, instalace systému, datová záchrana, zrychlení výkonu.</p>
-        </div>
-        <div class="infobox2">
-            <img class="photo" data-src="images/eet.webp" alt="EET pokladny">
-            <h2 class="title">EET pokladny</h2><br>
-            <p class="txt">Dodáme, nainstalujeme a nastavíme pokladní systémy pro váš obchod nebo provozovnu. Včetně servisu a podpory.</p>
-        </div>
-    </div>
-    <div class="location">
-        <h2 class="title">Operujeme ve Varnsdorfu a Rumburku</h2>
-        <p class="txt">Nebojte se nás kontaktovat, rádi vám pomůžeme s vaším zařízením. Navštivte nás v naší prodejně nebo využijte náš online servis.</p>
-        <div class="VDF">
-            <h2>Varnsdorf</h2>
-            <img data-src="images/vdf_prodejna.webp" alt="Obchod z venku" class="outside">
-            <iframe data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.8520157252965!2d14.62365257650306!3d50.907954254317744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709117589b323d9%3A0x60b9ae199a5c375!2sPcObchod%20Varnsdorf!5e0!3m2!1scs!2scz!4v1780324142401!5m2!1scs!2scz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="RMB">
-            <h2>Rumburk</h2>
-            <img data-src="images/rbk_prodejna.webp" alt="Obchod z venku" class="outside">
-            <iframe data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d314.1724085698732!2d14.55492272720099!3d50.95369168655991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709054daf43b2d3%3A0x7c0321188e88c94f!2sPcObchod%20Rumburk!5e0!3m2!1scs!2scz!4v1780324038090!5m2!1scs!2scz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-    <div class="footer"></div>
+    <header class="bar">
+        <img id="logo" data-src="images/logo_new.webp" alt="Logo PcObchod">
+    </header>
+
+    <main>
+        <section class="info" aria-label="Naše služby">
+            <div class="infobox">
+                <img class="photo" data-src="images/service-apple.webp" alt="Servis Apple telefonů a tabletů">
+                <div class="infobox-text">
+                    <h2 class="title">Apple servis</h2>
+                    <p class="txt">iPhone, iPad i MacBook. Specializujeme se na opravy bez ztráty dat a s originálními díly.</p>
+                </div>
+            </div>
+            <div class="infobox2">
+                <img class="photo" data-src="images/service-android.webp" alt="Servis Android telefonů">
+                <div class="infobox-text">
+                    <h2 class="title">Android servis</h2>
+                    <p class="txt">Samsung, Xiaomi, Huawei, Honor, OnePlus a další. Software i hardware opravy.</p>
+                </div>
+            </div>
+            <div class="infobox">
+                <img class="photo" data-src="images/servis_new.webp" alt="IT servis počítačů a notebooků">
+                <div class="infobox-text">
+                    <h2 class="title">IT servis</h2>
+                    <p class="txt">Počítače, notebooky a další výpočetní technika. Čištění, výměna komponent, instalace systému, datová záchrana, zrychlení výkonu.</p>
+                </div>
+            </div>
+            <div class="infobox2">
+                <img class="photo" data-src="images/eet.webp" alt="EET pokladní systémy">
+                <div class="infobox-text">
+                    <h2 class="title">EET pokladny</h2>
+                    <p class="txt">Dodáme, nainstalujeme a nastavíme pokladní systémy pro váš obchod nebo provozovnu. Včetně servisu a podpory.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="location" aria-label="Naše prodejny">
+            <h2 class="location-title">Operujeme ve Varnsdorfu a Rumburku</h2>
+            <p class="location-desc txt">Nebojte se nás kontaktovat, rádi vám pomůžeme s vaším zařízením. Navštivte nás v naší prodejně nebo využijte náš online servis.</p>
+            <div class="stores">
+
+                <!-- ── VARNSDORF ── -->
+                <div class="VDF">
+                    <h2>Varnsdorf</h2>
+
+                    <!-- 1. Fotka obchodu -->
+                    <img data-src="images/vdf_prodejna.webp" alt="Prodejna PcObchod Varnsdorf" class="outside">
+
+                    <!-- 2. Kontaktní údaje (mezi fotkou a mapou) -->
+                    <div class="contact-info">
+                        <div class="contact-row">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <p class="contact-label">Adresa</p>
+                                <p>Národní 1751<br>407 47 Varnsdorf</p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <p class="contact-label">Kontakt</p>
+                                <p>606 88 88 46<br><a href="mailto:varnsdorf@pcobchod.com">varnsdorf@pcobchod.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <p class="contact-label">Otevírací doba</p>
+                                <p>Po–Pá: 9:00–12:00 · 12:45–17:00<br>So: 9:00–11:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Mapa -->
+                    <iframe
+                        title="Mapa PcObchod Varnsdorf"
+                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.8520157252965!2d14.62365257650306!3d50.907954254317744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709117589b323d9%3A0x60b9ae199a5c375!2sPcObchod%20Varnsdorf!5e0!3m2!1scs!2scz!4v1780324142401!5m2!1scs!2scz"
+                        class="map-frame"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <!-- 4. Právní info pod mapou -->
+                    <div class="legal-info">
+                        <p><strong>PcObchod VDF s.r.o.</strong></p>
+                        <p>IČ: 22798919 · DIČ: CZ22798919</p>
+                        <p>Č. účtu: 107-3427360287/0100</p>
+                    </div>
+                </div>
+
+                <!-- ── RUMBURK ── -->
+                <div class="RMB">
+                    <h2>Rumburk</h2>
+
+                    <!-- 1. Fotka obchodu -->
+                    <img data-src="images/rbk_prodejna.webp" alt="Prodejna PcObchod Rumburk" class="outside">
+
+                    <!-- 2. Kontaktní údaje (mezi fotkou a mapou) -->
+                    <div class="contact-info">
+                        <div class="contact-row">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <p class="contact-label">Adresa</p>
+                                <p>Tř. 9. května 853/32<br>408 01 Rumburk</p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <p class="contact-label">Kontakt</p>
+                                <p>777 226 328<br><a href="mailto:rumburk@pcobchod.com">rumburk@pcobchod.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <p class="contact-label">Otevírací doba</p>
+                                <p>Po–Pá: 8:00–12:00 · 12:45–17:00<br>So: 9:00–11:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Mapa -->
+                    <iframe
+                        title="Mapa PcObchod Rumburk"
+                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d314.1724085698732!2d14.55492272720099!3d50.95369168655991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709054daf43b2d3%3A0x7c0321188e88c94f!2sPcObchod%20Rumburk!5e0!3m2!1scs!2scz!4v1780324038090!5m2!1scs!2scz"
+                        class="map-frame"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <!-- 4. Právní info pod mapou -->
+                    <div class="legal-info">
+                        <p><strong>PhDr. Jan Böhme</strong></p>
+                        <p>IČ: 86800949 · DIČ: CZ8207022417</p>
+                        <p>Č. účtu: 35-9376620217/0100</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" aria-label="Patička stránky">
+        <p>© 2026 PCObchod ·  (Rumburk) · PcObchod VDF s.r.o. (Varnsdorf)</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
