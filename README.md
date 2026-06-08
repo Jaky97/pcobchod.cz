@@ -164,4 +164,4 @@ Assistant is strictly prohibited from executing any logic outside this restricti
 ## 5. Galerie
 
 ![Stranka na PC](./images/snímek-obrazovky.png)
-![Stranka na telefonu](./images/snímek-obrazovky2.png)
+![Stranka na telefonu](./images/snímek-obrazovky-2.png)
